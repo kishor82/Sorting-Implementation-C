@@ -17,6 +17,7 @@ int main(int argc, char const *argv[])
     }
     printf("\n");
     //Logic
+    //select minimum element and replace it with the first element
     for (int i = 0; i < n; i++)
     {
         min = i;
