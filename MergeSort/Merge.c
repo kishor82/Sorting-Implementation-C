@@ -7,7 +7,6 @@ int main(int argc, char const *argv[])
     printf("How many Numbers do you want to sort :\n");
     scanf("%d", &n);
     h = n - 1;
-    printf("after n :h-1: %d \n", h);
     printf("Enter %d numbers:\n", n);
 
     for (int i = 0; i < n; i++)
@@ -25,7 +24,6 @@ int main(int argc, char const *argv[])
 }
 int MergeSort(int a[], int l, int h)
 {
-    printf("value of l:%d\n..", l);
     int mid;
     if (l < h)
     {
@@ -42,7 +40,7 @@ void merger(int a[], int l, int m, int h)
     r1 = l;
     r2 = m + 1;
     i = l;
-    while (r1 <= m & r2 <= h)
+    while (r1 <= m && r2 <= h)
     {
         if (a[r1] < a[r2])
         {
