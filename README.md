@@ -1,2 +1,2 @@
 # Sorting-Implementation-C
-Sorting Algorithms 
+Sorting Algorithms With Simple Logic
